@@ -5,11 +5,7 @@
  */
 package ch.heigvd.res.lab00;
 
-/**
- *
-<<<<<<< HEAD
- * @author rossier
- */
+
 public interface IInstrument {
 
     public String play();
@@ -18,16 +14,4 @@ public interface IInstrument {
 
     public String getColor();
     
-=======
- * @author admin
- */
-public interface IInstrument {
-
-  public String play();
-
-  public int getSoundVolume();
-
-  public String getColor();
-  
->>>>>>> upstream/with-bdd
 }
